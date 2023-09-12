@@ -29,13 +29,13 @@ class ServiceDetails extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--21"  data-black-overlay="5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title theme-gradient">WEB DEVELOPMENT</h2>
+                                    <p>We specialize in creating captivating websites and dynamic web applications that combine stunning design with seamless functionality. Our team of developers ensures your online presence is not only visually appealing but also user-friendly and responsive.</p>
                                 </div>
                             </div>
                         </div>

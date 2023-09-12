@@ -21,7 +21,7 @@ const SlideList = [
     category: "",
     title: "Web Devlopment",
     description:
-      "Unlock your online potential with Appera Solutions. We specialize in crafting visually stunning websites and robust web applications tailored to your needs. Join us in shaping the digital future today!",
+      "Experience the art of web development with Aperra Solutions. Our dedicated team of designers and developers crafts visually appealing, user-friendly websites and powerful web applications that cater to your unique needs. Whether you're a startup or an established business, we're here to bring your online vision to life. Join us in creating the future of the web today!",
     buttonText: "Contact Us",
     buttonLink: "/contact",
   },
@@ -29,9 +29,9 @@ const SlideList = [
     textPosition: "text-center",
     bgImage: "bg_image--23",
     category: "",
-    title: "Development.",
+    title: "Mobile App Development.",
     description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
+      "Empower your mobile presence with Appera Solutions. We excel in creating cutting-edge mobile apps for iOS and Android, delivering user-friendly experiences and top-notch functionality. Join us in shaping the mobile future today!",
     buttonText: "Contact Us",
     buttonLink: "/contact",
   },
@@ -39,19 +39,9 @@ const SlideList = [
     textPosition: "text-center",
     bgImage: "bg_image--22",
     category: "",
-    title: "UX Research.",
+    title: "Digital Marketing.",
     description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
-    buttonText: "Contact Us",
-    buttonLink: "/contact",
-  },
-  {
-    textPosition: "text-center",
-    bgImage: "bg_image--20",
-    category: "",
-    title: "UX Research.",
-    description:
-      "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.",
+      "Elevate your online visibility with Appera Solutions. We are experts in digital marketing, specializing in SEO, social media, and PPC strategies to boost your brand's online presence and drive growth. Join us in shaping your digital success story today!",
     buttonText: "Contact Us",
     buttonLink: "/contact",
   },
@@ -127,8 +117,9 @@ class DigitalAgency extends Component {
                 <div className="section-title text-center service-style--3 mb--30">
                   <h2 className="title">Our Service</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    At Aperra Solutions, we offer a comprehensive range of
+                    services designed to meet all your digital needs. Our
+                    expertise spans across core areas:
                   </p>
                 </div>
               </div>
