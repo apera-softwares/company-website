@@ -40,6 +40,9 @@ import PortfolioDetails from "./elements/PortfolioDetails";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
+import WebDevlopmentDetails from "./elements/services/web-devlopment"
+import MobileAppDevlopmentDetails from "./elements/services/mobile-app-devlopment"
+import DigitalMarketingDetails from "./elements/services/digital-marketing"
 
 
 // Blocks Layout
@@ -90,6 +93,11 @@ class Root extends Component{
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/web-devlopment`} component={WebDevlopmentDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/mobile-app-devlopment`} component={MobileAppDevlopmentDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/digital-marketing`} component={DigitalMarketingDetails}/>
+                
+                        
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>

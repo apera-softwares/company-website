@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
@@ -54,20 +53,19 @@ class ServiceDetails extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/web-devlopment.png" alt="Service Images"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing</p>
-                                                    <p>hidden in the middle of text. All the Lorem Ipsum generators tend toitrrepeat predefined chunks. Necessary, making this the first true generator on the Internet.</p>
-                                                    <h4 className="title">Proceess of metel</h4>
+                                                    <p>In today's digital age, a strong online presence is paramount, and that's where web development comes into play. At Appera Solutions, we are passionate about crafting exceptional web experiences that empower businesses and individuals to succeed in the digital landscape.</p>
+                                                    <h4 className="title">Our Web Development services :</h4>
                                                     <ul className="liststyle">
-                                                        <li>Yet this above sewed flirted opened ouch</li>
-                                                        <li>Goldfinch realistic sporadic ingenuous</li>
-                                                        <li>Abominable this abidin far successfully then like piquan</li>
-                                                        <li>Risus commodo viverra</li>
-                                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                                                        <li><b>Custom Website Design :</b> We believe that your website should be as unique as your brand. Our expert designers work closely with you to create visually stunning, tailored website designs that reflect your identity and captivate your audience.</li>
+                                                        <li><b>Front-End Development :</b> Our front-end developers are masters of HTML, CSS, and JavaScript. They bring your design to life, ensuring that your website is not only aesthetically pleasing but also user-friendly and responsive on all devices.</li>
+                                                        <li><b>Back-End Development :</b> The backbone of your website lies in its functionality and performance. Our back-end developers employ cutting-edge technologies to build robust, secure, and scalable web applications that meet your specific requirements.</li>
+                                                        <li><b>E-commerce Solutions :</b> For businesses looking to sell products or services online, we specialize in creating seamless and secure e-commerce websites. Our solutions include payment gateways, inventory management, and a smooth shopping experience for your customers.</li>
+                                                        <li><b>Web Application Development :</b> Beyond static websites, we excel in developing dynamic web applications that provide unique functionality and interactivity. Whether it's a customer portal, booking system, or any specialized requirement, we've got you covered.</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -75,7 +73,7 @@ class ServiceDetails extends Component{
                                         {/* End Single Area */}
 
                                         {/* Start Single Area */}
-                                        <div className="row sercice-details-content align-items-center">
+                                        {/* <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <p>but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. You need to be sure there isn't anything embarrassing</p>
@@ -95,7 +93,7 @@ class ServiceDetails extends Component{
                                                     <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         {/* End Single Area */}
 
                                     </div>
