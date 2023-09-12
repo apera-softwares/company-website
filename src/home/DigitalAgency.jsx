@@ -50,9 +50,9 @@ const SlideList = [
 class DigitalAgency extends Component {
   render() {
     const PostList = BlogContent.slice(0, 3);
-    let title = "About",
+    let title = "About Us",
       description =
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,";
+        "At Appera Solutions, we are more than just a business; we're a team of passionate individuals dedicated to making a difference in the digital world. With a shared commitment to excellence, innovation, and customer satisfaction,Our journey began with a simple yet powerful vision: to empower businesses and individuals to thrive in the digital age.";
     return (
       <Fragment>
         <Helmet pageTitle="" />
@@ -141,8 +141,11 @@ class DigitalAgency extends Component {
                   <div className="section-title text-center service-style--3 mb--15">
                     <h2 className="title">Our Project</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration.
+                      Revolutionize your digital landscape with Appera
+                      Solutions. We specialize in crafting innovative solutions
+                      for web and mobile, delivering exceptional user
+                      experiences and unmatched functionality. Be part of the
+                      digital evolution with us!
                     </p>
                   </div>
                 </div>
@@ -154,7 +157,7 @@ class DigitalAgency extends Component {
                   item="6"
                 />
               </div>
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-lg-12">
                   <div className="view-more-btn mt--60 text-center">
                     <a
@@ -165,7 +168,7 @@ class DigitalAgency extends Component {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -180,7 +183,7 @@ class DigitalAgency extends Component {
                   <div className="thumbnail">
                     <img
                       className="w-100"
-                      src="/assets/images/about/about-3.jpg"
+                      src="/assets/images/about/about.png"
                       alt="About Images"
                     />
                   </div>
@@ -203,15 +206,15 @@ class DigitalAgency extends Component {
         {/* End About Area */}
 
         {/* Start Testimonial Area */}
-        <div className="rn-testimonial-area ptb--120 bg_color--5">
+        {/* <div className="rn-testimonial-area ptb--120 bg_color--5">
           <div className="container">
             <Testimonial />
           </div>
-        </div>
+        </div> */}
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className="rn-blog-area pt--120 pb--80 bg_color--1">
+        {/* <div className="rn-blog-area pt--120 pb--80 bg_color--1">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-12">
@@ -262,7 +265,7 @@ class DigitalAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Blog Area */}
 
         {/* Start Brand Area */}
@@ -271,10 +274,13 @@ class DigitalAgency extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30">
-                  <h2 className="title">Our Clients</h2>
+                  <h2 className="title">Our Technology Stack</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Cutting-edge tools and frameworks power our solutions, from
+                    front-end to back-end. With expertise in JavaScript, we
+                    ensure innovation, reliability, and scalability in every
+                    project. Join us to harness this tech prowess for your
+                    digital success.
                   </p>
                 </div>
               </div>

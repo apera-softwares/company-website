@@ -2,18 +2,17 @@ import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { FiCheck } from "react-icons/fi";
 
+// tab2 = "Our mission",
+// tab3 = "Friendly Support"
 class TabsOne extends Component{
     render(){
         let 
-        tab1 = "Our history", 
-        tab2 = "Our mission",
-        tab3 = "Friendly Support";
+        tab1 = "Our Vision";
         const { tabStyle } = this.props;
         var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
-            'The Ultimate Deal On business',
+            'Web Development',
+            'Mobile App Development',
+            'Digital Marketing',
         ];
        
         return(
@@ -26,16 +25,16 @@ class TabsOne extends Component{
                                 <Tabs>
                                     <TabList  className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
-                                        <Tab>{tab2}</Tab>
-                                        <Tab>{tab3}</Tab>
+                                        {/* <Tab>{tab2}</Tab>
+                                        <Tab>{tab3}</Tab> */}
                                     </TabList>
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab aliquid, atque enim, vero nobis quam beatae nesciunt aliquam molestias, optio hic laborum esse. Deserunt architecto officiis laudantium corporis voluptatem.</p>
+                                           <p>To empower businesses and individuals to thrive in the digital age. Over the years, we have honed our expertise and evolved with the ever-changing landscape of Software industry. Today, we stand as a trusted partner, offering a range of cutting-edge services and solutions that enable our clients to reach new heights.</p>
 
                                            <div className="mt--30">
-                                               <h4>Lorem ipsum dolor sit.</h4>
+                                               <h4>Our Services</h4>
                                                <ul className="list-style--1">
                                                    {namesItemOne.map((name, index) => {
                                                        return <li key={ index }><FiCheck /> {name}</li>;
