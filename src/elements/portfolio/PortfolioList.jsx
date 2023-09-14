@@ -5,7 +5,22 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Development',
+        title: 'ReportOne (IOS)'
+    },
+    {
+        image: 'image-2',
+        category: 'Development',
         title: 'Getting tickets to the big show'
+    },
+    {
+        image: 'image-3',
+        category: 'Development',
+        title: 'Getting tickets to the big show'
+    },
+    {
+        image: 'image-1',
+        category: 'Development',
+        title: 'ReportOne (IOS)'
     },
     {
         image: 'image-2',

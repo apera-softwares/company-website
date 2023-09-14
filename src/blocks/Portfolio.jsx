@@ -92,7 +92,7 @@ const Portfolio = () => {
             <main className="page-wrapper">
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--90 pb--140 bg_color--1">
+                {/* <div className="portfolio-area pt--90 pb--140 bg_color--1">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
@@ -123,12 +123,12 @@ const Portfolio = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Portfolio Area */}
 
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area ptb--120 bg_color--5">
+                {/* <div className="portfolio-area ptb--120 bg_color--5">
                     <div className="portfolio-sacousel-inner">
                         <div className="container">
                             <div className="row">
@@ -151,11 +151,11 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Portfolio Area */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area ptb--120 bg_color--1">
+                {/* <div className="portfolio-area ptb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -189,7 +189,7 @@ const Portfolio = () => {
                             </Slider>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Portfolio Area */}
 
             </main>

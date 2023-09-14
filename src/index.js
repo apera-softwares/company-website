@@ -13,7 +13,7 @@ import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';
 import HomePortfolio from './home/HomePortfolio';
-import DigitalAgency from './home/DigitalAgency';
+import AperraWebsite from './home/AperraWebsite';
 import CreativeAgency from './home/CreativeAgency';
 import PersonalPortfolio from './home/PersonalPortfolio';
 import Business from './home/Business';
@@ -68,7 +68,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DigitalAgency}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={AperraWebsite}/>
                         {/* <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>

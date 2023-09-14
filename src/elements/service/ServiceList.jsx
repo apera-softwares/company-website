@@ -27,25 +27,44 @@ const ServiceList = [
 
 class ServiceThree extends Component {
   render() {
-    const { column } = this.props;
-    const ServiceContent = ServiceList.slice(0, this.props.item);
+    // const { column } = this.props;
+    // const ServiceContent = ServiceList.slice(0, this.props.item);
 
     return (
       <React.Fragment>
-        <div className="row">
-          {ServiceContent.map((val, i) => (
-            <div className={`${column}`} key={i}>
-              <a href={val.url}>
-                <div className="service service__style--2">
-                  <div className="icon">{val.icon}</div>
-                  <div className="content">
-                    <h3 className="title">{val.title}</h3>
-                    <p>{val.description}</p>
-                  </div>
+        <div className="service-area creative-service-wrapper pt--90 pb--120">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center mb--30">
+                  <h2>Our Service</h2>
+                  <p>
+                    At Aperra Solutions, we offer a comprehensive range of
+                    services designed to meet all your digital needs. Our
+                    expertise spans across core areas.
+                  </p>
                 </div>
-              </a>
+              </div>
             </div>
-          ))}
+            <div className="row creative-service">
+              {ServiceList.map((val, i) => (
+                <div
+                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+                  key={i}
+                >
+                  <a href={val.url}>
+                    <div className="service service__style--2">
+                      <div className="icon">{val.icon}</div>
+                      <div className="content">
+                        <h3 className="title">{val.title}</h3>
+                        <p>{val.description}</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </React.Fragment>
     );
