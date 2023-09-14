@@ -13,10 +13,10 @@ function ContactForm({props}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_v8ettwk', 
+            'template_gkf904o', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            '--N9ovTpczry_sS_I'
         )
         .then((result) => {
             console.log(result.text);

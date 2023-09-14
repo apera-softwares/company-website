@@ -91,21 +91,21 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/interactive-agency`} component={InteractiveAgency}/> */}
 
                         {/* Element Layot */}
-                        <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/web-devlopment`} component={WebDevlopmentDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/mobile-app-devlopment`} component={MobileAppDevlopmentDetails}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/digital-marketing`} component={DigitalMarketingDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/digital-marketing`} component={DigitalMarketingDetails}/> */}
                 
                         
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/> */}
 
                         {/* Blocks Elements  */}
-                        <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/counters`} component={Counters}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/testimonial`} component={Testimonial}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}/>
@@ -116,7 +116,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/contact-form`} component={ContactForm}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/google-map`} component={GoogleMap}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/columns`} component={Columns}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/pricing-table`} component={PricingTable}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/pricing-table`} component={PricingTable}/> */}
 
 
                         

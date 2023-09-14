@@ -11,6 +11,7 @@ import Brand from "../elements/Brand";
 import CallAction from "../elements/callaction/CallAction";
 import TabOne from "../elements/tab/TabOne";
 import Helmet from "../component/common/Helmet";
+import TeamTwo from "../../src/blocks/team/TeamTwo";
 
 const SlideList = [
   {
@@ -107,16 +108,22 @@ class AperraWebsite extends Component {
         {/* End Slider Area   */}
 
         {/* Start Service Area  */}
-        <div className="service-area pt--120 pb--50 bg_color--1" id="service-area">
-           <ServiceList
-              item="3"
-              column="col-lg-4 col-md-6 col-sm-6 col-12 text-center"
-            />
+        <div
+          className="service-area pt--120 pb--50 bg_color--1"
+          id="service-area"
+        >
+          <ServiceList
+            item="3"
+            column="col-lg-4 col-md-6 col-sm-6 col-12 text-center"
+          />
         </div>
         {/* End Service Area  */}
 
         {/* Start Portfolio Area */}
-        <div className="portfolio-area ptb--120 bg_image bg_image--3" id="portfolio-area">
+        <div
+          className="portfolio-area ptb--120 bg_image bg_image--3"
+          id="portfolio-area"
+        >
           <div className="portfolio-sacousel-inner">
             <div className="container">
               <div className="row">
@@ -176,71 +183,32 @@ class AperraWebsite extends Component {
         </div>
         {/* End About Area */}
 
-        {/* Start Testimonial Area */}
-        {/* <div className="rn-testimonial-area ptb--120 bg_color--5">
-          <div className="container">
-            <Testimonial />
-          </div>
-        </div> */}
-        {/* End Testimonial Area */}
-
-        {/* Start Blog Area */}
-        {/* <div className="rn-blog-area pt--120 pb--80 bg_color--1">
-          <div className="container">
-            <div className="row align-items-end">
-              <div className="col-lg-12">
-                <div className="section-title text-center service-style--3">
-                  <h2>Latest News</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row mt--60">
-              {PostList.map((value, i) => (
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                  <div className="blog blog-style--1 text-center">
-                    <div className="thumbnail">
-                      <a href="/blog-details">
-                        <img
-                          className="w-100"
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </div>
-                    <div className="content">
-                      <p className="blogtype">{value.category}</p>
-                      <h4 className="title">
-                        <a href="/blog-details">{value.title}</a>
-                      </h4>
-                      <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
-                          Read More
-                        </a>
-                      </div>
-                    </div>
+        {/* Start Team Area  */}
+        <div className="rn-team-wrapper ptb--120 bg_color--5" id="team-area">
+          <div className="rn-team-area">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-title text-center mb--30">
+                    <h2>Our Skilled Team</h2>
+                    <p>
+                      Our dynamic team at Aperra Solutions is a blend of diverse
+                      talents, each passionate about driving digital innovation.
+                      With experts in various domains, we collaborate seamlessly
+                      to craft exceptional solutions. Join hands with us to turn
+                      your ideas into reality."
+                    </p>
                   </div>
                 </div>
-              ))}
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="view-more-btn mt--20 text-center">
-                  <a className="rn-button-style--2 btn-solid" href="/blog">
-                    <span>View More</span>
-                  </a>
-                </div>
               </div>
+              <TeamTwo column="col-lg-3" teamStyle="" item="4" />
             </div>
           </div>
-        </div> */}
-        {/* End Blog Area */}
+        </div>
+        {/* End Team Area  */}
 
         {/* Start Brand Area */}
-        <div className="rn-brand-area ptb--120 bg_color--5">
+        <div className="rn-brand-area ptb--120 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
