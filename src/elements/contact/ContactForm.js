@@ -7,16 +7,17 @@ const Result = () => {
     )
 }
 function ContactForm({props}) {
+    
     const [ result,showresult ] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_v8ettwk', 
-            'template_gkf904o', 
+            'service_sah894i', 
+            'template_ed6vnsj', 
             e.target, 
-            '--N9ovTpczry_sS_I'
+            'IIm4vqqi9_--zMUBa'
         )
         .then((result) => {
             console.log(result.text);
