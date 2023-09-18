@@ -110,7 +110,7 @@ class AperraWebsite extends Component {
         {/* Start Service Area  */}
         <div
           className="service-area pt--120 pb--50 bg_color--1"
-          id="service-area"
+          id="service"
         >
           <ServiceList
             item="3"
@@ -122,7 +122,7 @@ class AperraWebsite extends Component {
         {/* Start Portfolio Area */}
         <div
           className="portfolio-area ptb--120 bg_image bg_image--3"
-          id="portfolio-area"
+          id="portfolio"
         >
           <div className="portfolio-sacousel-inner">
             <div className="container">
@@ -153,7 +153,7 @@ class AperraWebsite extends Component {
         {/* End Portfolio Area */}
 
         {/* Start About Area */}
-        <div className="about-area ptb--120  bg_color--1" id="about-area">
+        <div className="about-area ptb--120  bg_color--1" id="about">
           <div className="about-wrapper">
             <div className="container">
               <div className="row row--35">
@@ -184,7 +184,7 @@ class AperraWebsite extends Component {
         {/* End About Area */}
 
         {/* Start Team Area  */}
-        <div className="rn-team-wrapper ptb--120 bg_color--5" id="team-area">
+        <div className="rn-team-wrapper ptb--120 bg_color--5" id="team">
           <div className="rn-team-area">
             <div className="container">
               <div className="row">
