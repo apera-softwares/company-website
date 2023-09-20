@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trydo.rainbowit.net",
+  "homepage": "https://apera-softwares.github.io/company-website/gh-pages/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -89,7 +89,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "deploy": "yarn run build && yarn gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
