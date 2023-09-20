@@ -1,14 +1,12 @@
 import React from "react";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
   // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/company/aperra-solutions/" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/company/aperra-solutions/",
+  },
   // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
   // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ];
@@ -46,7 +44,7 @@ const FooterTwo = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div className="inner text-lg-right text-center mt_md--20 mt_sm--20" >
+            <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
                 <p>Copyright © 2023 Aperra Solutions.</p>
               </div>

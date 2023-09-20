@@ -13,6 +13,7 @@ import ReportOneWeb from "./elements/project-details/ReportOneWeb"
 import ReportOneIOS from "./elements/project-details/ReportOneIOS";
 import ReportOneAndroid from "./elements/project-details/ReportOneAndroid";
 import FolderOneWeb from "./elements/project-details/FolderOneWeb";
+import PitchlaneWeb from "./elements/project-details/PitchlaneWeb";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
@@ -64,6 +65,11 @@ class Root extends Component {
               exact
               path={`${process.env.PUBLIC_URL}/details/folder-one-web`}
               component={FolderOneWeb}
+            />
+             <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/pitchlane-web`}
+              component={PitchlaneWeb}
             />
             <Route
               exact

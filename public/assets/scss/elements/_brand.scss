@@ -56,6 +56,12 @@ ul {
                 flex-basis: 33.33%;
             }
         }
+
+        &.branstyle--3 {
+            li {
+                flex-basis: 25%;
+            }
+        }
     }
 }
 

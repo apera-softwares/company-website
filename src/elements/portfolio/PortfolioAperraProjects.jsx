@@ -26,6 +26,12 @@ const PortfolioListContent = [
     title: "ReportOne (Android)",
     url: "/details/report-one-android",
   },
+  {
+    image: "image-5",
+    category: "Web-Devlopment",
+    title: "Pitchlane (Web)",
+    url: "/details/pitchlane-web",
+  },
 ];
 
 class PortfolioAperraProjects extends Component {
@@ -45,7 +51,7 @@ class PortfolioAperraProjects extends Component {
                 <div className="inner">
                   <p>{value.category}</p>
                   <h4>
-                    <a href="/portfolio-details">{value.title}</a>
+                    <a href={value.url}>{value.title}</a>
                   </h4>
                   <div className="portfolio-button">
                     <a className="rn-btn" href={value.url}>
@@ -54,7 +60,7 @@ class PortfolioAperraProjects extends Component {
                   </div>
                 </div>
               </div>
-              {/* <Link className="link-overlay" to="/portfolio-details"></Link> */}
+              <Link className="link-overlay" to={value.url}></Link>
             </div>
           </div>
         ))}

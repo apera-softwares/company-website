@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones, FiMail, FiMapPin } from "react-icons/fi";
-import GoogleMapReact from "google-map-react";
 import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component {
   static defaultProps = {
@@ -72,6 +68,7 @@ class Contact extends Component {
                       <br />
                       <br />
                       <br />
+                      <br />
                     </p>
                   </div>
                 </div>
@@ -93,6 +90,7 @@ class Contact extends Component {
                       <br />
                       <br />
                       <br />
+                      <br />
                     </p>
                   </div>
                 </div>
@@ -108,9 +106,10 @@ class Contact extends Component {
                   <div className="inner">
                     <h4 className="title">Address</h4>
                     <p>
-                      21 Diwan Layout, Swami Nagar <br />
-                      Near Tata Square, Besa road <br />
-                      Nagpur
+                      21 Diwan Layout, <br />
+                      Manewada, Tata Chowk <br />
+                      Nagpur 440027,<br />
+                      Maharashtra, India
                     </p>
                   </div>
                 </div>

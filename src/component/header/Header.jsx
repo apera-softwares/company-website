@@ -94,19 +94,16 @@ class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="/#service">Service</a>
+                  <a href="/#service">Services</a>
                 </li>
                 <li>
                   <a href="/#portfolio">Projects</a>
                 </li>
                 <li>
-                  <a href="/#about">About</a>
+                  <a href="/#about">About us</a>
                 </li>
                 <li>
                   <a href="/#team">Team</a>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>

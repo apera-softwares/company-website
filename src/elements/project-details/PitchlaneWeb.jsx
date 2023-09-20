@@ -6,7 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
 
-class ReportOneIOS extends Component {
+class PitchlaneWeb extends Component {
   constructor() {
     super();
     this.state = {
@@ -20,7 +20,7 @@ class ReportOneIOS extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Repeort One IOS" />
+        <PageHelmet pageTitle="Pitchlane Web" />
 
         <Header
           headertransparent="header--transparent"
@@ -30,14 +30,14 @@ class ReportOneIOS extends Component {
 
         {/* Start Breadcrump Area */}
         <div
-          className="rn-page-title-area pt--120 pb--190 bg_image bg_image--11"
+          className="rn-page-title-area pt--120 pb--190 bg_image bg_image--13"
           data-black-overlay="7"
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Report One IOS</h2>
+                  <h2 className="title theme-gradient">Pitchlane Web</h2>
                 </div>
               </div>
             </div>
@@ -52,29 +52,43 @@ class ReportOneIOS extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>Report One IOS</h2>
+                    <h2>Pitchlane Web</h2>
                     <p className="subtitle">
-                      Mobile Application (IOS) made by Aperra solutions for{" "}
+                      Web Application made by Aperra solutions for{" "}
                       <a
-                        href="https://www.beamdigital.eu/"
-                        target="_blank"
+                        href="https://pitchlane.com/"
                         style={{ color: "red" }}
+                        target="_blank"
                       >
-                        beamdigital
+                        Pitchlane.com
                       </a>
                     </p>
                     <p>
-                      Introducing our innovative mobile app for employee
-                      tracking, designed to streamline workforce management.
-                      Monitor employee performance and enhance productivity
-                      effortlessly with our user-friendly platform. powered by
-                      cutting-edge technology
+                      Introducing innovative online video pitch-making website,
+                      designed to transform your ideas into compelling visual
+                      narratives. Create engaging video pitches effortlessly,
+                      with user-friendly tools and templates. Elevate your
+                      presentations, sales pitches, and storytelling with our
+                      platform, driven by cutting-edge video technology.
                     </p>
 
                     <div className="portfolio-view-list d-flex flex-wrap">
                       <div className="port-view">
                         <span>Project Types</span>
-                        <h4>Mobile Application (IOS)</h4>
+                        <h4>Web Application</h4>
+                      </div>
+
+                      <div className="port-view">
+                        <span>View</span>
+                        <h4>
+                          <a
+                            href="https://pitchlane.com/"
+                            style={{ color: "red" }}
+                            target="_blank"
+                          >
+                            Visit Website
+                          </a>
+                        </h4>
                       </div>
                     </div>
 
@@ -98,20 +112,20 @@ class ReportOneIOS extends Component {
                               </li>
                               <li>
                                 <img
-                                  src="/assets/images/brand/react-native.svg"
-                                  alt="React Native Logo Images"
+                                  src="/assets/images/brand/vuejs.svg"
+                                  alt="Vuejs Logo Images"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="/assets/images/brand/graphql.svg"
-                                  alt="GraphQL Logo Images"
+                                  src="/assets/images/brand/express.png"
+                                  alt="Express Logo Images"
                                 />
                               </li>
                               <li>
                                 <img
-                                  src="/assets/images/brand/postgresql-type.svg"
-                                  alt="Postgress Logo Images"
+                                  src="/assets/images/brand/typescript.svg"
+                                  alt="Typescript Logo Images"
                                 />
                               </li>
                             </ul>
@@ -123,44 +137,24 @@ class ReportOneIOS extends Component {
                     <div className="portfolio-share-link mt--20 pb--70 pb_sm--40"></div>
                   </div>
                   <div className="portfolio-thumb-inner">
-                    <div
-                      className="mb--30"
-                      style={{
-                        height: "100%",
-                        width: "100%",
-                        justifyContent: "space-between",
-                        display: "flex",
-                      }}
-                    >
+                    <div className="thumb mb--30">
                       <img
-                        src="/assets/images/portfolio/report-one-mobile/image1.png"
+                        src="/assets/images/portfolio/pitchlane-web/image4.png"
                         alt="Portfolio Images"
-                        style={{ height: "100%", width: "45%" }}
-                      />
-                      <img
-                        src="/assets/images/portfolio/report-one-mobile/image2.png"
-                        alt="Portfolio Images"
-                        style={{ height: "100%", width: "45%" }}
                       />
                     </div>
-                    <div
-                      className="mb--30"
-                      style={{
-                        height: "100%",
-                        width: "100%",
-                        justifyContent: "space-between",
-                        display: "flex",
-                      }}
-                    >
+
+                    <div className="thumb mb--30">
                       <img
-                        src="/assets/images/portfolio/report-one-mobile/image3.png"
+                        src="/assets/images/portfolio/pitchlane-web/image2.png"
                         alt="Portfolio Images"
-                        style={{ height: "100%", width: "45%" }}
                       />
+                    </div>
+
+                    <div className="thumb mb--30">
                       <img
-                        src="/assets/images/portfolio/report-one-mobile/image4.png"
+                        src="/assets/images/portfolio/pitchlane-web/image3.png"
                         alt="Portfolio Images"
-                        style={{ height: "100%", width: "45%" }}
                       />
                     </div>
                   </div>
@@ -184,4 +178,4 @@ class ReportOneIOS extends Component {
     );
   }
 }
-export default ReportOneIOS;
+export default PitchlaneWeb;

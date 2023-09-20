@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
-import Brand from "../Brand";
 
 class ReportOneWeb extends Component {
   constructor() {
@@ -58,6 +58,7 @@ class ReportOneWeb extends Component {
                       <a
                         href="https://www.beamdigital.eu/"
                         style={{ color: "red" }}
+                        target="_blank"
                       >
                         beamdigital
                       </a>
@@ -82,6 +83,7 @@ class ReportOneWeb extends Component {
                           <a
                             href="http://app.reportone.it"
                             style={{ color: "red" }}
+                            target="_blank"
                           >
                             Visit Website
                           </a>
@@ -100,7 +102,13 @@ class ReportOneWeb extends Component {
                         </div>
                         <div className="row">
                           <div className="col-lg-12 mt--40">
-                            <ul className={`brand-list branstyle--2`}>
+                            <ul className={`brand-list branstyle--3`}>
+                              <li>
+                                <img
+                                  src="/assets/images/brand/nodejs.png"
+                                  alt="Node Logo Images"
+                                />
+                              </li>
                               <li>
                                 <img
                                   src="/assets/images/brand/react-native.svg"
@@ -144,7 +152,7 @@ class ReportOneWeb extends Component {
 
                     <div className="thumb mb--30">
                       <img
-                        src="/assets/images/portfolio/report-one-web/image2.png"
+                        src="/assets/images/portfolio/report-one-web/image3.png"
                         alt="Portfolio Images"
                       />
                     </div>

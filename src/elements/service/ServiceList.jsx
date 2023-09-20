@@ -37,7 +37,7 @@ class ServiceThree extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center mb--30">
-                  <h2>Our Service</h2>
+                  <h2>Our Services</h2>
                   <p>
                     At Aperra Solutions, we offer a comprehensive range of
                     services designed to meet all your digital needs. Our

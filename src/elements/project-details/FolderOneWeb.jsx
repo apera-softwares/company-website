@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
 import ScrollToTop from "react-scroll-up";
@@ -56,6 +57,7 @@ class FolderOneWeb extends Component {
                       Web Application made by Aperra solutions for{" "}
                       <a
                         href="https://www.beamdigital.eu/"
+                        target="_blank"
                         style={{ color: "red" }}
                       >
                         beamdigital
@@ -82,6 +84,7 @@ class FolderOneWeb extends Component {
                         <h4>
                           <a
                             href="http://app.folderone.it/FolderOne/"
+                            target="_blank"
                             style={{ color: "red" }}
                           >
                             Visit Website
@@ -101,7 +104,13 @@ class FolderOneWeb extends Component {
                         </div>
                         <div className="row">
                           <div className="col-lg-12 mt--40">
-                            <ul className={`brand-list branstyle--2`}>
+                            <ul className={`brand-list branstyle--3`}>
+                              <li>
+                                <img
+                                  src="/assets/images/brand/nodejs.png"
+                                  alt="Node Logo Images"
+                                />
+                              </li>
                               <li>
                                 <img
                                   src="/assets/images/brand/nextjs.svg"

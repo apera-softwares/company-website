@@ -129,7 +129,7 @@ class AperraWebsite extends Component {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--15">
-                    <h2 className="title">Our Project</h2>
+                    <h2 className="title">Our Projects</h2>
                     <p>
                       Revolutionize your digital landscape with Appera
                       Solutions. We specialize in crafting innovative solutions

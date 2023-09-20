@@ -31,6 +31,7 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "file-loader": "3.0.1",
     "fs-extra": "7.0.1",
+    "gh-pages": "^6.0.0",
     "google-map-react": "^1.1.7",
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
@@ -87,7 +88,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -155,6 +157,7 @@
     ]
   },
   "devDependencies": {
+    "push-dir": "^0.4.1",
     "terser-webpack-plugin": "^1.4.5"
   }
 }
