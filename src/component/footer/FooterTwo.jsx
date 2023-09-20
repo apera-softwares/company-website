@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -37,7 +38,7 @@ const FooterTwo = () => {
               <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                 {SocialShare.map((val, i) => (
                   <li key={i}>
-                    <a href={`${val.link}`}>{val.Social}</a>
+                    <a target="_blank" href={`${val.link}`}>{val.Social}</a>
                   </li>
                 ))}
               </ul>
