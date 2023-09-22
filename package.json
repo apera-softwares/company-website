@@ -1,8 +1,8 @@
 {
-  "name": "trydo",
+  "name": "aperrasoftwares",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apera-softwares.github.io/company-website/",
+  "homepage": "http://www.aperrasoftwares.com/",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",

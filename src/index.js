@@ -21,11 +21,10 @@ import * as serviceWorker from "./serviceWorker";
 class Root extends Component {
   render() {
     return (
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter basename={""} element={{}}>
         <PageScrollTop>
           <Switch>
             {/*Apera website routes */}
-
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/`}
