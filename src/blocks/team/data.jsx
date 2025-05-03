@@ -50,6 +50,31 @@ let data = [
       },
     ],
   },
+  {
+    images:
+      "/assets/images/team/dilip.png",
+    title: "Dilip Lovevanshi",
+    designation: "Frontend Devloper (Node.js)",
+    socialNetwork: [
+      {
+        icon: <FaLinkedinIn />,
+        url: "https://www.linkedin.com/in/abhinandan-bhope-523082203",
+      },
+    ],
+  },
+  {
+    images:
+      "/assets/images/team/pratik.png",
+    title: "Abhinandan Bhope",
+    designation: "Backend Devloper (Node.js)",
+    socialNetwork: [
+      {
+        icon: <FaLinkedinIn />,
+        url: "https://www.linkedin.com/in/abhinandan-bhope-523082203",
+      },
+    ],
+  },
+  
   //   {
   //     images: "05",
   //     title: "Fatima Asrafi",
