@@ -42,7 +42,7 @@ class PortfolioAperraProjects extends Component {
       <React.Fragment>
         {list.map((value, index) => (
           <div className={`${column}`} key={index}>
-            <div className={`portfolio ${styevariation}`}>
+            <div className={`portfolio ${styevariation} mb--40`}>
               <div className="thumbnail-inner">
                 <div className={`thumbnail ${value.image}`}></div>
                 <div className={`bg-blr-image ${value.image}`}></div>
