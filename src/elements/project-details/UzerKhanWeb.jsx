@@ -167,7 +167,7 @@ class UzerKhanWeb extends Component {
                   <div className="portfolio-thumb-inner">
                     {projectScreenShots.map((item, index) => (
                       <div key={index} className="thumb mb--30">
-                        <img src={item?.imgSrc} alt={item?.label} />
+                        <img src={item?.imgSrc} alt={`${item?.label}`} />
                       </div>
                     ))}
                   </div>
