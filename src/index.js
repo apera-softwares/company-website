@@ -9,11 +9,16 @@ import error404 from "./elements/error404";
 import WebDevlopmentDetails from "./elements/services/web-devlopment";
 import MobileAppDevlopmentDetails from "./elements/services/mobile-app-devlopment";
 import DigitalMarketingDetails from "./elements/services/digital-marketing";
-import ReportOneWeb from "./elements/project-details/ReportOneWeb"
+import ReportOneWeb from "./elements/project-details/ReportOneWeb";
 import ReportOneIOS from "./elements/project-details/ReportOneIOS";
 import ReportOneAndroid from "./elements/project-details/ReportOneAndroid";
 import FolderOneWeb from "./elements/project-details/FolderOneWeb";
 import PitchlaneWeb from "./elements/project-details/PitchlaneWeb";
+import UzerKhanWeb from "./elements/project-details/UzerKhanWeb";
+import EAuctionsHubWeb from "./elements/project-details/EAuctionsHubWeb";
+import EAuctionsHubApp from "./elements/project-details/EAuctionsHubApp";
+import RojgarManpowerApp from "./elements/project-details/RojgarManpowerApp";
+import RojgarManpowerHiringApp from "./elements/project-details/RojgarManpowerHiringApp";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
@@ -55,20 +60,45 @@ class Root extends Component {
               path={`${process.env.PUBLIC_URL}/details/report-one-ios`}
               component={ReportOneIOS}
             />
-             <Route
+            <Route
               exact
               path={`${process.env.PUBLIC_URL}/details/report-one-android`}
               component={ReportOneAndroid}
             />
-             <Route
+            <Route
               exact
               path={`${process.env.PUBLIC_URL}/details/folder-one-web`}
               component={FolderOneWeb}
             />
-             <Route
+            <Route
               exact
               path={`${process.env.PUBLIC_URL}/details/pitchlane-web`}
               component={PitchlaneWeb}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/uzerkhan-web`}
+              component={UzerKhanWeb}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/euactionshub-web`}
+              component={EAuctionsHubWeb}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/euactionshub-app`}
+              component={EAuctionsHubApp}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/rojgar-manpower-app`}
+              component={RojgarManpowerApp}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/details/rojgar-manpower-hiring-app`}
+              component={RojgarManpowerHiringApp}
             />
             <Route
               exact

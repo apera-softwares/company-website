@@ -12,6 +12,7 @@ import CallAction from "../elements/callaction/CallAction";
 import TabOne from "../elements/tab/TabOne";
 import Helmet from "../component/common/Helmet";
 import TeamTwo from "../../src/blocks/team/TeamTwo";
+import PortfolioAperraProjectsUpdated from "../elements/portfolio/PortfolioAperraProjectsUpdated";
 
 const SlideList = [
   {
@@ -137,13 +138,15 @@ class AperraWebsite extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              {/* <div className="row">
                 <PortfolioAperraProjects
                   styevariation="text-center"
-                  column="col-lg-6 col-md-6 col-sm-12"
+                  column="col-lg-4"
                   item="6"
                 />
-              </div>
+              </div> */}
+              <PortfolioAperraProjectsUpdated />
+      
             </div>
           </div>
         </div>

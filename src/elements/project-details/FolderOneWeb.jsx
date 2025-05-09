@@ -37,7 +37,9 @@ class FolderOneWeb extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Folder One Web</h2>
+                  <h2 className="title theme-gradient">
+                    Folder One Web Application
+                  </h2>
                 </div>
               </div>
             </div>
@@ -52,7 +54,9 @@ class FolderOneWeb extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>Folder One Web</h2>
+                    <h3 style={{ fontSize: "40px" }}>
+                      Folder One Web Application
+                    </h3>
                     <p className="subtitle">
                       Web Application made by Aperra solutions for{" "}
                       <a
