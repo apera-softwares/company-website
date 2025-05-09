@@ -52,7 +52,7 @@ class ReportOneAndroid extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>Report One Android</h2>
+                    <h3 style={{ fontSize: "40px" }}>Report One Android</h3>
                     <p className="subtitle">
                       Mobile Application (Android) made by Aperra solutions for{" "}
                       <a

@@ -6,7 +6,9 @@ let data = [
     images:
       "/assets/images/team/tushar_nikam.jpeg",
     title: "Tushar Nikam",
-    designation: "Senior Full Stack Devloper (Node.js)",
+    designation: "Senior Full Stack Developer",
+    techStack: "(Node.js)",
+
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
@@ -14,23 +16,27 @@ let data = [
       },
     ],
   },
-  {
-    images:
-      "/assets/images/team/mohnish_mahakalkar.jpeg",
-    title: "Mohnish Mahakalkar",
-    designation: "Full Stack Devloper (Node.js)",
-    socialNetwork: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "https://www.linkedin.com/in/mohnishmahakalkar",
-      },
-    ],
-  },
+  // {
+  //   images:
+  //     "/assets/images/team/mohnish_mahakalkar.jpeg",
+  //   title: "Mohnish Mahakalkar",
+  //   designation: "Full Stack Developer",
+  //   techStack: "(Node.js)",
+
+  //   socialNetwork: [
+  //     {
+  //       icon: <FaLinkedinIn />,
+  //       url: "https://www.linkedin.com/in/mohnishmahakalkar",
+  //     },
+  //   ],
+  // },
   {
     images:
       "/assets/images/team/himanshu_supare.jpeg",
     title: "Himanshu Supare",
-    designation: "Backend Devloper (Node.js)",
+    designation: "Backend Developer",
+    techStack: "(Node.js)",
+
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
@@ -42,7 +48,8 @@ let data = [
     images:
       "/assets/images/team/abhinandan_bhope.jpeg",
     title: "Abhinandan Bhope",
-    designation: "Backend Devloper (Node.js)",
+    designation: "Backend Developer",
+    techStack: "(Node.js)",
     socialNetwork: [
       {
         icon: <FaLinkedinIn />,
@@ -50,6 +57,48 @@ let data = [
       },
     ],
   },
+  {
+    images:
+      "/assets/images/team/dilip.png",
+    title: "Dilip Lovevanshi",
+    designation: "Frontend Developer",
+    techStack: "(React/React Native)",
+    socialNetwork: [
+      {
+        icon: <FaLinkedinIn />,
+        url: "https://www.linkedin.com/in/dilip884400/",
+      },
+    ],
+  },
+  {
+    images:
+      "/assets/images/team/pratik.png",
+    title: "Pratik Sondaule ",
+    designation: "Backend Developer",
+    techStack: "(Node.js)",
+    socialNetwork: [
+      {
+        icon: <FaLinkedinIn />,
+        url: "https://www.linkedin.com/in/pratik-sondaule-aa34b31b8/",
+      },
+    ],
+  },
+   {
+    images:
+      "/assets/images/team/shubham.png",
+    title: "Shubham Sonwane",
+    designation: "Frontend Developer",
+    techStack: "(React.js)",
+
+    socialNetwork: [
+      {
+        icon: <FaLinkedinIn />,
+        url: "https://www.linkedin.com/in/shubham-sonawane-77b749192/",
+      },
+    ],
+  },
+
+  
   //   {
   //     images: "05",
   //     title: "Fatima Asrafi",

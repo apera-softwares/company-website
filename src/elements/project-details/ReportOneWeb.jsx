@@ -37,7 +37,7 @@ class ReportOneWeb extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="rn-page-title text-center pt--100">
-                  <h2 className="title theme-gradient">Report One Web</h2>
+                  <h2 className="title theme-gradient">Report One Web Application</h2>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ class ReportOneWeb extends Component {
               <div className="col-lg-12">
                 <div className="portfolio-details">
                   <div className="inner">
-                    <h2>Report One Web</h2>
+                    <h3 style={{ fontSize: "40px" }}>Report One Web Application</h3>
                     <p className="subtitle">
                       Web Application made by Aperra solutions for{" "}
                       <a

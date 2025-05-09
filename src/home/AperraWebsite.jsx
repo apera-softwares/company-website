@@ -12,6 +12,7 @@ import CallAction from "../elements/callaction/CallAction";
 import TabOne from "../elements/tab/TabOne";
 import Helmet from "../component/common/Helmet";
 import TeamTwo from "../../src/blocks/team/TeamTwo";
+import PortfolioAperraProjectsUpdated from "../elements/portfolio/PortfolioAperraProjectsUpdated";
 
 const SlideList = [
   {
@@ -108,10 +109,7 @@ class AperraWebsite extends Component {
         {/* End Slider Area   */}
 
         {/* Start Service Area  */}
-        <div
-          className="service-area pt--120 pb--50 bg_color--1"
-          id="service"
-        >
+        <div className="service-area pt--120 pb--50 bg_color--1" id="service">
           <ServiceList
             item="3"
             column="col-lg-4 col-md-6 col-sm-6 col-12 text-center"
@@ -140,13 +138,15 @@ class AperraWebsite extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              {/* <div className="row">
                 <PortfolioAperraProjects
-                  styevariation="text-center mt--40"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12"
+                  styevariation="text-center"
+                  column="col-lg-4"
                   item="6"
                 />
-              </div>
+              </div> */}
+              <PortfolioAperraProjectsUpdated />
+      
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@ class AperraWebsite extends Component {
                 <div className="col-lg-12">
                   <div className="section-title text-center mb--30">
                     <h2>Our Skilled Team</h2>
-                    <p>
+                    <p className="">
                       Our dynamic team at Aperra Solutions is a blend of diverse
                       talents, each passionate about driving digital innovation.
                       With experts in various domains, we collaborate seamlessly
@@ -201,7 +201,7 @@ class AperraWebsite extends Component {
                   </div>
                 </div>
               </div>
-              <TeamTwo column="col-lg-3" teamStyle="" item="4" />
+              <TeamTwo column="col-lg-3" teamStyle="" item="7" />
             </div>
           </div>
         </div>

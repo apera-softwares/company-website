@@ -36,7 +36,7 @@ const Team = () => {
                                     </div>
                                 </div>
                             </div>
-                            <TeamOne column="col-lg-4" teamStyle="" item="3" />
+                            <TeamOne column="col-lg-4" teamStyle="" item="5" />
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Team = () => {
                                     </div>
                                 </div>
                             </div>
-                            <TeamTwo column="col-lg-3" teamStyle="" item="4" />
+                            <TeamTwo column="col-lg-3" teamStyle="" item="5" />
                         </div>
                     </div>
                 </div>
