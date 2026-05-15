@@ -5,6 +5,10 @@ on:
     branches:
       - 'release/**'
 
+permissions:
+  contents: write  # Allows the bot to push commits, tags, and create releases
+  pull-requests: write # Required if the bot needs to create PRs
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
