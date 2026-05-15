@@ -30,20 +30,20 @@ let data = [
   //     },
   //   ],
   // },
-  {
-    images:
-      "/assets/images/team/himanshu_supare.jpeg",
-    title: "Himanshu Supare",
-    designation: "Backend Developer",
-    techStack: "(Node.js)",
+  // {
+  //   images:
+  //     "/assets/images/team/himanshu_supare.jpeg",
+  //   title: "Himanshu Supare",
+  //   designation: "Backend Developer",
+  //   techStack: "(Node.js)",
 
-    socialNetwork: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "https://www.linkedin.com/in/himanshusupare",
-      },
-    ],
-  },
+  //   socialNetwork: [
+  //     {
+  //       icon: <FaLinkedinIn />,
+  //       url: "https://www.linkedin.com/in/himanshusupare",
+  //     },
+  //   ],
+  // },
   {
     images:
       "/assets/images/team/abhinandan_bhope.jpeg",
@@ -86,7 +86,7 @@ let data = [
    {
     images:
       "/assets/images/team/shubham.png",
-    title: "Shubham Sonwane",
+    title: "Bhushan Zombade",
     designation: "Frontend Developer",
     techStack: "(React.js)",
 

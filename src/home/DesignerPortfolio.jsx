@@ -1,6 +1,5 @@
 import React from 'react'
 import ScrollToTop from 'react-scroll-up';
-import TextLoop from "react-text-loop";
 import FooterTwo from "../component/footer/FooterTwo";
 import { FiChevronUp} from "react-icons/fi";
 import Header from "../component/header/HeaderFour";
@@ -40,11 +39,11 @@ const DesignerPortfolio = () => {
                                     <div className={`inner ${value.textPosition}`}>
                                         {value.category ? <span>{value.category}</span> : ''}
                                         <h1 className="title">Hi, I’m Jone Doe <br/>
-                                        <TextLoop>
+                                       
                                             <span> UX Designer.</span>
                                             <span> UI Designer.</span>
                                             <span> Content Writter.</span>
-                                        </TextLoop>{" "}
+                                   {" "}
                                         </h1>
                                         <h2>based in USA.</h2>
                                         {value.description ? <p className="description">{value.description}</p> : ''}

@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
-import TextLoop from "react-text-loop";
+// import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
@@ -41,11 +41,11 @@ const PortfolioLanding = () => {
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Hi, I’m Jone Doe <br/>
-                                            <TextLoop>
+                                           
                                                 <span> JS Developer.</span>
                                                 <span> UI/UX Designer.</span>
                                                 <span> Content Writter.</span>
-                                            </TextLoop>{" "}
+                                       {" "}
                                             </h1>
                                             <h2>based in USA.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
