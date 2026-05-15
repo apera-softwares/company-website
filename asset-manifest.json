@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.62bab176.chunk.css",
-    "main.js": "/static/js/main.fd34fb66.chunk.js",
-    "main.js.map": "/static/js/main.fd34fb66.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.ac5a3147.js",
-    "runtime~main.js.map": "/static/js/runtime~main.ac5a3147.js.map",
-    "static/css/2.e9e87e45.chunk.css": "/static/css/2.e9e87e45.chunk.css",
-    "static/js/2.5327dfd7.chunk.js": "/static/js/2.5327dfd7.chunk.js",
-    "static/js/2.5327dfd7.chunk.js.map": "/static/js/2.5327dfd7.chunk.js.map",
+    "main.css": "/static/css/main.e0a4c7ce.css",
+    "main.js": "/static/js/main.ed9e2fc1.js",
+    "runtime~main.js": "/static/js/runtime~main.dff79345.js",
+    "static/css/104.993afe7c.css": "/static/css/104.993afe7c.css",
+    "static/js/104.c9e1fd56.js": "/static/js/104.c9e1fd56.js",
+    "workbox-5945b515.js.map": "/workbox-5945b515.js.map",
+    "workbox-5945b515.js": "/workbox-5945b515.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/media/slick.svg": "/static/media/slick.f97e3bbf.svg",
     "index.html": "/index.html",
-    "precache-manifest.e272bab6edfea1ab609db8b3a21ba481.js": "/precache-manifest.e272bab6edfea1ab609db8b3a21ba481.js",
+    "static/media/slick.eot": "/static/media/slick.ced611da.eot",
+    "static/media/slick.ttf": "/static/media/slick.d41f55a7.ttf",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.e9e87e45.chunk.css.map": "/static/css/2.e9e87e45.chunk.css.map",
-    "static/css/main.62bab176.chunk.css.map": "/static/css/main.62bab176.chunk.css.map",
-    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
+    "static/media/slick.woff": "/static/media/slick.b7c9e1e4.woff",
+    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;.aed5664e.bin",
+    "main.e0a4c7ce.css.map": "/static/css/main.e0a4c7ce.css.map",
+    "main.ed9e2fc1.js.map": "/static/js/main.ed9e2fc1.js.map",
+    "runtime~main.dff79345.js.map": "/static/js/runtime~main.dff79345.js.map",
+    "104.993afe7c.css.map": "/static/css/104.993afe7c.css.map",
+    "104.c9e1fd56.js.map": "/static/js/104.c9e1fd56.js.map"
   }
 }
