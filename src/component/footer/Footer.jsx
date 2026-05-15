@@ -80,7 +80,7 @@ class Footer extends Component {
 
                     <div className="col-lg-12">
                       <div className="copyright-text">
-                        <p>Copyright © 2023 Aperra Solutions.</p>
+                        <p>Copyright © 2026 Aperra Solutions.</p>
                       </div>
                     </div>
                   </div>

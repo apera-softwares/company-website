@@ -102,9 +102,9 @@ class Header extends Component {
                 <li>
                   <a href="/#about">About us</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/#team">Team</a>
-                </li>
+                </li> */}
               </ul>
             </nav>
             <div className="humberger-menu d-block d-lg-none pl--20">

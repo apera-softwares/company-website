@@ -146,7 +146,7 @@ class AperraWebsite extends Component {
                 />
               </div> */}
               <PortfolioAperraProjectsUpdated />
-      
+
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ class AperraWebsite extends Component {
         {/* End About Area */}
 
         {/* Start Team Area  */}
-        <div className="rn-team-wrapper ptb--120 bg_color--5" id="team">
+        {/* <div className="rn-team-wrapper ptb--120 bg_color--5" id="team">
           <div className="rn-team-area">
             <div className="container">
               <div className="row">
@@ -204,7 +204,7 @@ class AperraWebsite extends Component {
               <TeamTwo column="col-lg-3" teamStyle="" item="7" />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Team Area  */}
 
         {/* Start Brand Area */}

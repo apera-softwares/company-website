@@ -22,6 +22,8 @@ import RojgarManpowerHiringApp from "./elements/project-details/RojgarManpowerHi
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import PrivacyPolicy from "./home/PrivacyPolicy";
+import TermsCondition from "./home/TermsCondition";
 
 class Root extends Component {
   render() {
@@ -111,9 +113,21 @@ class Root extends Component {
               component={About}
             />
             <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/privacy-policy`}
+              component={PrivacyPolicy}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/terms-condition`}
+              component={TermsCondition}
+            />
+            <Route
               path={`${process.env.PUBLIC_URL}/404`}
               component={error404}
             />
+
+
             <Route component={error404} />
           </Switch>
         </PageScrollTop>

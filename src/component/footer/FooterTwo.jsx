@@ -20,20 +20,43 @@ const FooterTwo = () => {
     >
       <div className="wrapper plr--50 plr_sm--20">
         <div className="row align-items-center justify-content-between">
-          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="inner">
               <div className="logo text-center text-sm-left mb_sm--20">
-                <a href="/home-one">
+                <a href="/">
                   <img
                     src="/assets/images/logo/logo.png"
                     alt="Logo images"
                     style={{ height: 60, width: 200 }}
                   />
                 </a>
+
+
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div className="col-lg-3 col-md-12 col-sm-12 col-12">
+            <div className="inner text-lg-left text-left mt_md--20 mt_sm--20">
+              <div className="text text-gray">
+                <p>
+                  <a href="/privacy-policy" className="mr-3">
+                    Privacy Policy
+                  </a>
+
+                  <a href="/terms-condition">
+                    Terms & Condition
+                  </a>
+                </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+
+
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <div className="inner text-center">
               <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                 {SocialShare.map((val, i) => (
@@ -44,10 +67,10 @@ const FooterTwo = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+          <div className="col-lg-3 col-md-12 col-sm-12 col-12">
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
-                <p>Copyright © 2023 Aperra Solutions.</p>
+                <p>Copyright © 2026 Aperra Solutions.</p>
               </div>
             </div>
           </div>

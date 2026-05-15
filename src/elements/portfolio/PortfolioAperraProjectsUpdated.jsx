@@ -12,13 +12,12 @@ const PortfolioAperraProjectsUpdated = () => {
   );
   return (
     <div className="">
-      <div className=" tab-btn-container">
+      <div className="tab-btn-container gap-0">
         {tabs.map((tab, index) => (
           <button
             key={index}
-            className={` tab-btn me-2  ${
-              activeTab === tab ? "active-tab" : ""
-            }`}
+            className={` rn-button-style--2 btn-solid ${activeTab === tab ? "active-tab" : ""
+              }`}
             onClick={() => setActiveTab(tab)}
           >
             {tab}
